@@ -444,7 +444,7 @@ header nav .burger .line3.close-animation {
 .shape-1-container .layer-2,
 .shape-1-container .layer-3{
     width: 120%;
-    height: 50%;
+    height: 100%;
     background: var(--bg2-color);
     position: absolute;
     bottom: -37.7%;
