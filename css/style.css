@@ -921,7 +921,6 @@ header nav .burger .line3.close-animation {
    
 }
 
-.wrapper-container .posts-container .post 
 .wrapper-container .posts-container .post:hover {
    transform: scale(1.03);
    box-shadow: 0px 0px 50px rgba(0, 180, 216, 0.5);
