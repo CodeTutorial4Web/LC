@@ -571,7 +571,7 @@ header nav .burger .line3.close-animation {
 
     )   
     ;
-    z-index: 3;
+    z-index: 1;
 }
 
 .brands-slider .brands-slider-list {
@@ -593,7 +593,7 @@ header nav .burger .line3.close-animation {
     position:absolute;
     left: 100%;
     background: var(--bg2-color);
-    border-radius: 20px;
+    border-radius: 7px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -605,6 +605,10 @@ header nav .burger .line3.close-animation {
     to {
         left: calc(var(--width) * -1);
     }
+}
+
+.brands-slider:hover span {
+    animation-play-state: paused;
 }
 
 /* SUPER CARS */
@@ -1260,7 +1264,11 @@ footer .footer-container .contact-email button:hover {
 @media (max-width: 952px) {
     header nav .burger {
         display: flex;
-    }    
+    }   
+    
+    .shape-1-container {
+        display: none;
+    }
 
     header nav ul {
         position: absolute;
@@ -1319,6 +1327,12 @@ footer .footer-container .contact-email button:hover {
     .container > *.expand{ 
         flex-direction: column;
     }  
+
+    .brands-slider {
+        width: 150%;
+        bottom: 5%;
+        transform: rotate(0deg) translateX(-50%);
+     }
 }
 
 
@@ -1375,6 +1389,9 @@ footer .footer-container .contact-email button:hover {
         max-height: 300px;
         min-height: 300px;
      }
+
+     
+
      
 }
 
@@ -1390,7 +1407,11 @@ footer .footer-container .contact-email button:hover {
         width: 100%;
     }
 
-
+    .brands-slider {
+        width: 200%;
+        bottom: 5%;
+        transform: rotate(0deg) translateX(-50%);
+     }
 
 
     .section-title {
@@ -1443,6 +1464,12 @@ footer .footer-container .contact-email button:hover {
         padding: 10px 20px;
     }
     
+    .brands-slider {
+        width: 250%;
+        bottom: 5%;
+        transform: rotate(0deg) translateX(-50%);
+     }
+
 
 }
 
