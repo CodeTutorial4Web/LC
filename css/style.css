@@ -326,7 +326,7 @@ header nav .burger .line3.close-animation {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 6;
+    z-index: 1;
 }
 
 
@@ -436,7 +436,7 @@ header nav .burger .line3.close-animation {
     position: absolute;
     bottom: -0%;
     right: -0%;
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
 }
 
@@ -452,7 +452,6 @@ header nav .burger .line3.close-animation {
     transform: rotate(-3deg) translateX(-50%);
     animation: showByPosition1 4s 1 cubic-bezier(.72,.08,.02,.88);
     overflow: hidden;
-    z-index: 7;
 }
 
 .shape-1-container .layer-2 {
